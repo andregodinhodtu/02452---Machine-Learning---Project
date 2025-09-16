@@ -6,6 +6,6 @@ André Godinho s252307
 
 André Ribau s253421
 
-This was edited in VSCode ye
+Explicação sobre o que é um commit/push/pull
 
-one more commit só para ver se isto tá mm a funcionar
+
