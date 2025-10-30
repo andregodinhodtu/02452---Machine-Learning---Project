@@ -1,0 +1,7 @@
+1º reg_part_B_NN file - Basline model 
+
+    it´s about the baseline model. Should we use the method model = LinearRegression(fit_intercept=True) or just calculate y_train_mean = y_train_inner.mean(). From what i have been looking correct answer is latter
+
+        "As a baseline model, we will apply a linear regression model with no features, i.e. it computes the mean of y on the training data, and use this value to predict y on the test data."
+
+    Check this with TA´s
