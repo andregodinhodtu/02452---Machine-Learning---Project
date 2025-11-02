@@ -5,3 +5,7 @@
         "As a baseline model, we will apply a linear regression model with no features, i.e. it computes the mean of y on the training data, and use this value to predict y on the test data."
 
     Check this with TA´s
+
+2º How should we decide which hyperparameters to choose
+
+3ª
