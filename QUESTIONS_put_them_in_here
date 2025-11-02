@@ -8,4 +8,12 @@
 
 2º How should we decide which hyperparameters to choose
 
-3ª
+3º When to use one hout of k encoding? What methods and what problems may arise from this?
+
+4º should we always work with standertized data?
+
+5º What should we do with the best model for a certain inner fold. Use the mean of the best predictions, becuase we used it to feature selection nt model selection
+
+6º So regarding the cross validation pipeline in which we need to use the logistic regression controlling parameter. I don´t understand how should we do it. should we have a list of the parameters and randomly use one in that list. Should we cross validate and choose them int the inner folder? not getting it 
+
+7º Logistic regression is always linear?
