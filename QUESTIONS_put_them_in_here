@@ -19,3 +19,5 @@
 7º Logistic regression is always linear?
 
 8º When performing the regression task, should we take out classification variable death event?
+
+9º About Naive Bayes: The assignment suggests a formula using the term b. I think that suggest using the function BernoulliNB as the classifier. From what I have understood this is good for binary features but not for continuous ones. Could we use GaussianNB as the classifier or should we apply some type of binarization or turning them discrete to the features, or should we abandon the possibility of using NAive Bayes?
