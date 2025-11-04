@@ -1,4 +1,4 @@
-1º reg_part_B_NN file - Basline model 
+1º reg_part_B_NN file - Baseline model  DONE -> y mean
 
     it´s about the baseline model. Should we use the method model = LinearRegression(fit_intercept=True) or just calculate y_train_mean = y_train_inner.mean(). From what i have been looking correct answer is latter
 
@@ -6,18 +6,53 @@
 
     Check this with TA´s
 
-2º How should we decide which hyperparameters to choose
+2º How should we decide which hyperparameters to choose NICE i will answer
 
 3º When to use one hout of k encoding? What methods and what problems may arise from this? In linear regression should we?
 
+Not needed k ou of k encoding
+
 4º should we always work with standertized data? It says that for regression we need to do it but what about the others
+
+só dentro do split é que devemos normalizar, normalizar e centrar os outputs.
+
+para y n é preciso divir pela standart deviation
+
+para X é centrar e dividir pela stnadar
+
+X^train = (X_train-X_mean_train)/X_std_train
+
+X^test = (X_test-X_mean_train)/X_std_train
+
+y^train = y_train-y_mean_train
+
+y^test = y_test-y_mean_train
 
 5º What should we do with the best model for a certain inner fold. Use the mean of the best predictions, becuase we used it to feature selection nt model selection
 
-6º So regarding the cross validation pipeline in which we need to use the logistic regression controlling parameter. I don´t understand how should we do it. should we have a list of the parameters and randomly use one in that list. Should we cross validate and choose them int the inner folder? not getting it 
+escolher o lambda mais comum da tabela gerada 
+consultar nas instruções, temos de replicar as tabelas
 
-7º Logistic regression is always linear?
+depois temos de proceder a fazer o teste estatístico escolhido com o parametro acima que decidimos
+
+ou seja não usamos valores da tabela para calcular testes estatisticos
+
+ideia é, vamos ter de divifir um training e um test novos, ou seja usamos uma divisão diferente das usadas acima nos folds, devemos escolhar uma seed diferente
+
+o prazeres disse que no set up 2 temos de realizar uma cross validation 
+
+é mesmo importante garantir que não é a mesma divisão folds da anterior
+
+6º So regarding the cross validation pipeline in which we need to use the logistic regression controlling parameter. I don´t understand how should we do it. should we have a list of the parameters and randomly use one in that list. Should we cross validate and choose them int the inner folder?
+
+no inner fold o que se tem de fazer é para todos os valores de lambda escolhidos calcular o erro no test e fazer a média dos valores de erro obtido acrross todos os valores de lambda. O que tiver menor erro é o lambda que sai do inner fold e é usado para calcular o erro final no test set do outter fold.
+
+Essencialmente é dar print na tabela !
 
 8º When performing the regression task, should we take out classification variable death event?
 
-9º About Naive Bayes: The assignment suggests a formula using the term b. I think that suggest using the function BernoulliNB as the classifier. From what I have understood this is good for binary features but not for continuous ones. Could we use GaussianNB as the classifier or should we apply some type of binarization or turning them discrete to the features, or should we abandon the possibility of using NAive Bayes?
+acha que não há problema, há correlação coma as outras. Se a correlação for muito alto não usar. Se não for esse o caso não há problema em incluir.
+
+9º does it make sense to consider death event in real predective 
+
+exprimentar das duas formas, mas de facto é algo estranho porque não seria um valor que se poderia dar input
