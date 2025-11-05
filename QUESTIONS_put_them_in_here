@@ -8,9 +8,11 @@
 
 2º How should we decide which hyperparameters to choose NICE i will answer
 
+ver qual aparece com mais frequência -> regularization lambda and x
+
 3º When to use one hout of k encoding? What methods and what problems may arise from this? In linear regression should we?
 
-Not needed k ou of k encoding
+Not needed one ou of k encoding
 
 4º should we always work with standertized data? It says that for regression we need to do it but what about the others
 
@@ -42,6 +44,8 @@ ideia é, vamos ter de divifir um training e um test novos, ou seja usamos uma d
 o prazeres disse que no set up 2 temos de realizar uma cross validation 
 
 é mesmo importante garantir que não é a mesma divisão folds da anterior
+
+ter de fazer 3 estestes estatisticos em cada parte para comparar 3 respostas 
 
 6º So regarding the cross validation pipeline in which we need to use the logistic regression controlling parameter. I don´t understand how should we do it. should we have a list of the parameters and randomly use one in that list. Should we cross validate and choose them int the inner folder?
 
