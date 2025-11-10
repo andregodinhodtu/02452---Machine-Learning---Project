@@ -43,7 +43,7 @@ ideia é, vamos ter de divifir um training e um test novos, ou seja usamos uma d
 
 o prazeres disse que no set up 2 temos de realizar uma cross validation 
 
-é mesmo importante garantir que não é a mesma divisão folds da anterior
+é mesmo importante garantir que não é a mesma divisão folds da anterior -> meter relatorio
 
 ter de fazer 3 estestes estatisticos em cada parte para comparar 3 respostas 
 
