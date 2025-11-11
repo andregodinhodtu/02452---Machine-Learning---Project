@@ -73,3 +73,20 @@ Usar Strtified K fold quando?
 y standart ou nao?
 
 que dados devemos usar para calcular o valor de erro finalizado?
+
+Estas perguntas já foram resolvidas!
+
+
+Tasks que faltam fazer:
+
+Regression part A
+
+Martim???
+
+Regression part B
+
+Na regressão já está tudo feito (falta escrever), consultar os valores no código para escrever respostas
+
+- Colocar os valores da tabela no relatório (meter no fim porque ainda podemos mudar alguma coisa)
+- Temos de meter a forma como decidimos os hyperparameters da neural network
+- ...
