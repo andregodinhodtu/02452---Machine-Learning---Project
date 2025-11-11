@@ -77,13 +77,13 @@ que dados devemos usar para calcular o valor de erro finalizado?
 Estas perguntas já foram resolvidas!
 
 
-Tasks que faltam fazer:
+# Tasks que faltam fazer:
 
-Regression part A
+## Regression part A
 
 Martim???
 
-Regression part B
+## Regression part B
 
 Na regressão já está tudo feito (falta escrever), consultar os valores no código para escrever respostas
 
@@ -99,3 +99,24 @@ Na regressão já está tudo feito (falta escrever), consultar os valores no có
 - Statistically evaluate if there is a significant performance difference between the fitted ANN, linear regression model and baseline using the methods described in
 
 - Include p-values and confidence intervals for the three pairwise tests in your report and conclude on the results: Is one model better than the other? Are the two models better than the baseline? Are some of the models identical? What recommendations would you make based on what you’ve learned?
+
+## Classification
+
+- 1. Explain which classification problem you have chosen to solve. Is it a multi-class or binary classification problem? I have started this (review)
+
+- 2 The table should once more include the
+selected parameters, and as an error measure we will use the error rate:
+
+- Ribau adiciona mcc- Briefly discuss the result of the table
+
+- tests : Are the two models better than the baseline? Are some of the models identical? What recommendations would you make based on what you’ve learned
+
+- Train a logistic regression model using a suitable value of λ (see previous exercise). Explain how the logistic regression model make a prediction. Are the same features deemed relevant as for the regression part of the report?
+
+RIBAU olha para isto que estás dentro doa assunto comparar com o Martim aqui
+
+## Discussion:
+
+1. Include a discussion of what you have discovered in the regression and classification part of the report
+
+2. If your data has been analyzed previously (which will be the case in nearly all instances), find a study which uses it for classification, regression or both. Discuss how your results relate to those obtained in the study. If your dataset has not been published before, or the articles are irrelevant/unobtainable, this question may be omitted but make sure you justify this is the case. I will look into it tomorrow Godinho
